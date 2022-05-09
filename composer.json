@@ -1,0 +1,40 @@
+{
+    "name": "abrahamolaoboju/store",
+    "description": "a sample for the new PHP SDK",
+    "type": "project",
+    "require": {
+        "slim/slim": "4.x-dev",
+        "slim/http": "dev-master",
+        "nyholm/psr7": "^1.5",
+        "nyholm/psr7-server": "dev-master",
+        "guzzlehttp/psr7": "2.2.x-dev",
+        "laminas/laminas-diactoros": "2.11.x-dev",
+        "httpsoft/http-server-request": "dev-master",
+        "httpsoft/http-message": "1.0.9",
+        "selective/basepath": "dev-master",
+        "abrahamolaoboju/flutterwave-php": "@dev",
+        "vlucas/phpdotenv": "5.4.x-dev"
+    },
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Abe\\Store\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Olaobaju Abraham",
+            "email": "olaobajua@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./packages/Flutterwave-PHP",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
+}
