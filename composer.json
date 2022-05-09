@@ -27,14 +27,5 @@
             "email": "olaobajua@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "./packages/Flutterwave-PHP",
-            "options": {
-                "symlink": true
-            }
-        }
-    ]
+    "minimum-stability": "dev"
 }
