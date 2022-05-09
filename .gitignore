@@ -1,3 +1,4 @@
 /vendor
 .env
 /packages/Flutterwave-PHP/
+composer.lock
